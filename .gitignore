@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+codes/
+classes/
+.DS_Store
+.dockerignore
+.gitignore
+Dockerfile
+heroku.yml
