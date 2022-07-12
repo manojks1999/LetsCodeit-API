@@ -1,17 +1,21 @@
-#LetsCodeit
-Introduction to LetsCodeit API
+# LetsCodeit
+
+### Introduction to LetsCodeit API
 It supports multiple langauge all of is free.
 
-Executing and fetching Output.
+### Executing and fetching Output.
 Use a POST request with specified fileds to get a Output.
 
-List of supporting languages:
-Make a get request to "https://letscodeit-api.herokuapp.com/list"
+### List of supporting languages:
+Make a GET request to 
+> https://letscodeit-api.herokuapp.com/list
 
 Request:
-https://letscodeit-api.herokuapp.com/list
+
+> GET : https://letscodeit-api.herokuapp.com/list
 
 Response:
+```
 [
     {
         "language": "java",
@@ -42,6 +46,7 @@ Response:
         "compilerVersion": "6.12.0.140"
     }
 ]
+```
 
 Endpoint to execute Codes:
 "https://letscodeit-api.herokuapp.com/"
