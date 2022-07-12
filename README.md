@@ -49,27 +49,28 @@ Response:
 ```
 
 Endpoint to execute Codes:
-"https://letscodeit-api.herokuapp.com/"
+> https://letscodeit-api.herokuapp.com/
 
-Fields:
-Input Parameters:
+### Fields:
+#### Input Parameters:
 
-code:
-language:
-input:
+- code:
+- language:
+- input:
 
-Output Fields:
+#### Output Fields:
 
-success
-timestamp
-output
-language
-version
+- success
+- timestamp
+- output
+- language
+- version
 
-Sample:
+### Sample:
 
-Request
+#### Request
 
+```
 code:
 #include <iostream>
 int main() {
@@ -81,8 +82,10 @@ language:
 cpp
 
 input:
+```
 
-Response:
+#### Response:
+```
 {
     "success": true,
     "timestamp": "2022-07-12T03:09:05.667Z",
@@ -90,3 +93,4 @@ Response:
     "language": "cpp",
     "version": "11.2.0"
 }
+```
